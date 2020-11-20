@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>two dimensional arr</title>
+</head>
+<body>
+<button onclick="addElement()"></button>
+<p id="result"></p>
+<script>
+    let a = [[1, 2, 1, 24], [8, 11, 9, 4]];
+
+    function addElement() {
+    }
+
+    for (let i = 0; i < a.length; i++) {
+        console.log(`"row ${i}"`)
+        for (let j = 0; j < a[i].length; j++) {
+            console.log(`"${a[i][j]}"`);
+        }
+    }
+
+</script>
+</body>
+</html>
